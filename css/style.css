@@ -31,36 +31,57 @@ body {
 /* WRAPPER */
 .wrapper {
     /* debug */
-    background-color: aqua;
-    min-height: 200px;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    padding-top: 40px;
 }
 
 /* TOP CONTAINER */
 .top_part {
     height: calc(100% - 120px);
-    /* debug */
-    background-color: orange;
-    padding: 30px;
+    padding-bottom: 20px;
 }
 
 .item_container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    overflow-y: auto;
+    gap: 5px;
     height: 100%;
 }
 
 .video_item {
     background-image: url(https://picsum.photos/seed/picsum/200/300);  
-    width: calc(100% / 7); 
-    min-height: 150px;
+    width: calc(100% / 7 - 5px); 
+    min-height: 100px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
 
+li span {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 0.7rem;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 3px;
 }
 /* BOTTOM CONTAINER */
 .bottom_part {
     /* debug */
-    background-color: orangered;
+    background-color: #222222;
     height: 120px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.vert_center {
+    align-items: center;
+}
+.flex {
+    display: flex;
 }
