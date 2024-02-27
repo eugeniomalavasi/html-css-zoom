@@ -85,3 +85,37 @@ li span {
 .flex {
     display: flex;
 }
+
+.right_interface span {
+    display: inline-block;
+}
+
+.icon {
+    font-size: 1.5rem;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.left_interf {
+    display: flex;
+    width: 15%;
+    padding-left: 10px;
+    justify-content: space-around;
+}
+.right_interf {
+    background-color: rgba(0, 0, 0, 0.476);
+    color: red;
+    width: 15%;
+    justify-content: end;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.btn_action {
+    font-size: 0.8rem;
+}
+
+.mid_interface {
+    gap: 10px;
+}
+
