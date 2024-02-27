@@ -35,8 +35,24 @@ body {
     height: 100vh;
     width: 100%;
     padding-top: 40px;
+    position: relative;
 }
 
+.speaker {
+    color: white;
+    position: absolute;
+    right: 5px;
+    top:10px;
+    font-size: 0.8rem;
+}
+
+.speaker span {
+    background-color: rgb(57, 57, 57);
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
 /* TOP CONTAINER */
 .top_part {
     height: calc(100% - 120px);
