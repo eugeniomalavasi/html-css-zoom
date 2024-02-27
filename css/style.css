@@ -1,10 +1,46 @@
 /* RESET */
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 img {
     max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+/* COMMON */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1100px;
+}
+
+/* WRAPPER */
+.wrapper {
+    /* debug */
+    background-color: aqua;
+    min-height: 200px;
+}
+
+/* TOP CONTAINER */
+.top_part {
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    /* debug */
+    background-color: orange;
+    min-height: 200px;
+}
+
+/* BOTTOM CONTAINER */
+.bottom_part {
+    /* debug */
+    background-color: orangered;
+    min-height: 120px;
 }
